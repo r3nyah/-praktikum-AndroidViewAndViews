@@ -24,7 +24,8 @@
     <string name="display">Display</string>
     <string name="size">Size</string>
     <string name="battery">Battery</string>
-    <string name="seller">Sold by</string>
-    <string name="my_name">Narendra Wicaksono</string>
-    <string name="buy">Buy</string>
+    <string name="seller">Made by</string>
+    <string name="my_name">Arian Febrian</string>
+    <string name="buy">Buy Now</string>
+    <string name="cart">Add to cart</string>
 </resources>

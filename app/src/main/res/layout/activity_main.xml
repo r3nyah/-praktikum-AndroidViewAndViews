@@ -163,20 +163,20 @@
         android:layout_marginBottom="@dimen/activity_vertical_margin">
 
         <de.hdodenhof.circleimageview.CircleImageView
-        android:layout_width="56dp"
-        android:layout_height="56dp"
-        android:src="@drawable/photo_2"
-        android:layout_centerVertical="true"
-        android:id="@+id/profile_image"
-        android:layout_marginRight="@dimen/activity_horizontal_margin"/>
+            android:id="@+id/profile_image"
+            android:layout_width="56dp"
+            android:layout_height="56dp"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:src="@drawable/photo_3" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
             android:layout_toRightOf="@+id/profile_image"
             android:text="@string/my_name"
-            android:textColor="@android:color/black"
-            android:layout_centerVertical="true" />
+            android:textColor="@android:color/black" />
 
     </RelativeLayout>
 
@@ -184,6 +184,16 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/buy"
+        android:theme="@style/Button.White"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:layout_marginBottom="@dimen/activity_vertical_margin" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/cart"
+        android:theme="@style/Button.White"
         android:layout_marginLeft="@dimen/activity_horizontal_margin"
         android:layout_marginRight="@dimen/activity_horizontal_margin"
         android:layout_marginBottom="@dimen/activity_vertical_margin" />
